@@ -138,13 +138,13 @@
 </head>
 <body>
     <div class="arjs-loader" id="loader">
-        <div class="pulse">🥚 Писанка на долоні 🎨</div>
+        <div class="pulse">🥚 Писанка 🎨</div>
         <div style="margin-top: 20px; font-size: 1.2em;">Наведи камеру на маркер! 😊🎨</div>
         <button id="start-btn" class="control-btn start-btn" style="margin-top: 30px;">Розпочати</button>
     </div>
 
     <div class="region-label" id="region-label"></div>
-    <div class="instructions" id="instructions">Потягни пальцем вниз, щоб повернути телефон</div>
+    <div class="instructions" id="instructions">Потягни пальцем вниз</div>
 
     <a-scene
         mindar-image="imageTargetSrc: ./my-marker.mind; autoStart: false;"
@@ -238,7 +238,7 @@
         // Масив з ідентифікаторами текстур та відповідними регіонами
         const pisankaData = [
             { texture: '#pisanka-texture-1', region: 'Київщина' },
-            { texture: '#pisanka-texture-2', region: 'Полтавщина' },
+            { texture: '#pisanka-texture-2', region: 'Бойківщина ' },
             { texture: '#pisanka-texture-3', region: 'Чернігівщина' },
             { texture: '#pisanka-texture-4', region: 'Львівщина' },
             { texture: '#pisanka-texture-5', region: 'Волинь' },
@@ -495,3 +495,4 @@
     </script>
 </body>
 </html>
+
